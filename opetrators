@@ -1,0 +1,31 @@
+#arthematic operators(+,-,/,*,//,**,%)
+#comparision operators(==,!=,<,>,<=,>=)
+#logical operators(and,or,not)
+
+a = 14
+b = 8
+print("addition:" ,a + b)
+print("subtraction:", a - b)
+print("multiplication:", a * b)
+print("division:", a / b)
+print("moduls:", a % b)
+print("floor dividion:", a // b)
+print("exponentation:", a ** b)
+
+#comparision operators
+x = 19
+y = 6
+
+print("equal", x == y)
+print("not equal:", x != y)
+print("greater than:", x > y )
+print("less then:", x < y)
+print("greater equal:",x >= y)
+print("less equal:", x <= y)
+
+#logical operators 
+a = 11
+b = 12
+print("And:", a and b)
+print("Or:", a or b)
+print("Not:",  not b )
