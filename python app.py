@@ -1,34 +1,35 @@
-#list
-numbers = [1,2,3,4,5]
-fruits = ["januray","feburary","march"]
+num1 = 30
+num2 = 45
+sum = num1 + num2
+print ("the sum of given two numbers is ", sum)
 
-#list index find 
-numbers = [10,30,50,70]
-print (numbers[0])
-print (numbers[1])
-print (numbers[2])
-print (numbers[3])
-print(numbers[1:3])
+num1 = float(input("enter a number here"))
+num2 = float(input("enter another number here"))
+sum = num1 + num2
+print ("the sum of the provided two number is ",sum)
 
-#LIST MA ADD KARNY KA TARKIA
-days = ["monday","tuesday","wednesday"]
-days[0] ="thursday"
-print (days)
+name = str(input("enter your name"))
+age = int(input("enter your age"))
+city= str(input("enter your city "))
+rollnumber =int(input("enter your rollnumber"))
+print(name,age,city,rollnumber)
 
 
-numbers = [1,2,3]
-numbers.append(4)
-print(numbers)
+name = str(input("enter your name: "))
+age = int(input("enter your age:"))
+city= str(input("enter your city: "))
+rollnumber =int(input("enter your rollnumber: "))
+marks = int(input("enter your marks: "))
+is_pass = marks >= 40
 
-numbers = [5,6,7]
-numbers.insert(8,9)
-print(numbers)
+if is_pass:
+    print("congratulation! you are passed.")
+else:
+    print("sorry! you are failed.")   
 
-list3 = [1,2,3]
-list2 = [4,5,6]
-list3.extend(list2)
-print(list3)
+print(name,age,city,rollnumber,marks)
 
-days = ["monday","tuesday","wednesday"]
-delet (tuesday) 
-print(days)
+
+
+
+
